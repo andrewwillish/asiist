@@ -1,0 +1,54 @@
+ASIIST v2.0 System Documentation
+========================================================================================================================
+
+[startup.xml]
+------------------------------------------------------------------------------------------------------------------------
+Location:
+[asiistRoot]/startup.xml
+
+Startup is an xml file which contain the general directory and tools information for asiist to work.
+
+The information contained within startup.xml is as follow:
+    -. generalPythonRootDir     = python directory that contain general tools
+    -. generalPluginRootDir     = plugin directory that contains general plugin
+    -. projectDir               = project root directory where projectInfo.xml is located for further instruction.
+
+
+[launcher.bat]
+------------------------------------------------------------------------------------------------------------------------
+Location:
+[asiistRoot]/launcher.bat
+
+Start maya with asiist embedded to it.
+Maya plugin path will be used for licensing, scriptNode locker and other security related technology.
+
+Python path will be added directly when the system start so it is advisable to use the xml instead.
+
+Structure as follow:
+
+::Get current directory
+set mypath=%~dp0
+
+::Set maya plugin path
+set MAYA_PLUG_IN_PATH=%MAYA_PLUG_IN_PATH%;<additional plugin path here>
+
+::Set python path
+set PYTHONPATH=%PYTHONPATH%;%mypath:~0,-1%;
+
+::Start maya
+"<maya path here>"
+
+
+[asiistMenu.xml]
+------------------------------------------------------------------------------------------------------------------------
+Location:
+On each new application.
+
+The purpose of this xml is to supply instruction to menuBuilder which will be run inside maya to add custom menu to maya.
+
+Structure as follow:
+<root>
+    <main menu here>
+        <name of the submenu> name of the module within the same directory </name of the submenut>
+    </main menu>
+</root>
