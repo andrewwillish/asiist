@@ -7,7 +7,7 @@ import maya.mel as mel
 import os, sys
 import maya.OpenMaya as om
 import xml.etree.ElementTree as ET
-
+import asiistMenuBuilder
 
 #CALLBACK==============================================================================================
 def beforeSaveCallbackFun(*args):
@@ -28,14 +28,6 @@ def afterSaveCallbackFun(*args):
     for chk in allPanelLis:cmds.modelEditor(chk,e=True,da=daStatLis[cnt]);cnt+=1
     return
 #CALLBACK==============================================================================================
-
-#SCRIPTJOB=============================================================================================
-#note:  this scriptjob will check for new module installed. If it follow standard system, it will
-#       add it to the system whenever the system is idle. This method strictly for python only.
-def moduleCheck(*args):
-
-    return
-#SCRIPTJOB=============================================================================================
 
 def environmentPrep(*args):
     #get environment selection
@@ -65,8 +57,8 @@ def environmentPrep(*args):
         if os.path.isdir(projPath)==False: os.makedirs(projPath)
         sys.path.append(projPath)
 
-        #declare scriptjob
-        cmds.scriptJob(ie=moduleCheck)
+        #run menuBuilder
+        asiistMenuBuilder.hash()
     return
 
 def uiFunction(*args):
