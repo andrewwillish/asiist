@@ -23,6 +23,9 @@ except:
     pass
 
 #create menu
-cmds.menu('asiistMenu',l='ASIIST', tearOff=True,p=mainWindow)
-cmds.menuItem('rehash',l='Rehash Menu',p='asiistMenu',\
-              c=asiistMenuBuilder.hash)
+try:
+    cmds.menu('asiistMenu',l='Asiist', tearOff=True,p=mainWindow)
+except:
+    pass
+
+cmds.menuItem('rehash',l='Menu Rehash',p='asiistMenu',c=asiistMenuBuilder.hash)
