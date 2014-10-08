@@ -18,9 +18,6 @@ mainWindow = mel.eval('$temp1=$gMainWindow')
 
 #create menu
 try:
-    cmds.menu('m_asiistMenu',l='Asiist', tearOff=True,p=mainWindow)
+    cmds.menu('m_kikoTools',l='KIKO Tools', tearOff=True,p=mainWindow)
 except:
     pass
-
-cmds.menuItem('rehash',l='Menu Rehash',p='m_asiistMenu',c=asiistMain.hash)
-cmds.menuItem('switchEnvi',l='Switch Environment',p='m_asiistMenu',c=asiistMain.switchEnvi)

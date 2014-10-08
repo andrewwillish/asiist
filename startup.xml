@@ -1,9 +1,9 @@
 <root>
     <generalInformation>
-        <generalPythonRootDir>
+        <generalRepo>
             <general>Z:/development/asiist/testFlight/generalPythonRepository</general>
-            <ram>Z:/development/registrarAssetManager</ram>
-        </generalPythonRootDir>
+            <registrar>Z:/development/registrarFileManager</registrar>
+        </generalRepo>
     </generalInformation>
 
     <projectDirectory>

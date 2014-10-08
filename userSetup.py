@@ -4,10 +4,13 @@
 import maya.utils as utils
 import maya.cmds as cmds
 import maya.mel as mel
-import os, sys
+import os, sys, imp, asiistMain
 import maya.OpenMaya as om
 import xml.etree.ElementTree as ET
-import asiistMenuBuilder
+
+#determining window root
+winRoot=os.environ['ProgramFiles']
+winRoot=winRoot[:winRoot.find('\\')+1]
 
 #CALLBACK==============================================================================================
 def beforeSaveCallbackFun(*args):
@@ -29,6 +32,7 @@ def afterSaveCallbackFun(*args):
     return
 #CALLBACK==============================================================================================
 
+#environmentPrep function to start build and connect a menu.
 def environmentPrep(*args):
     #get environment selection
     selItem=cmds.textScrollList('startupTextScroll',q=True,si=True)
@@ -39,28 +43,21 @@ def environmentPrep(*args):
         #close layoutdialog
         cmds.layoutDialog(dismiss='Set Selected Envi')
 
-        #get root
-        root=ET.parse('startup.xml').getroot()
+        #declare project credential
+        try:
+            #write temporary file
+            asiistMain.declareProjectEnvi(selItem[0])
 
-        #get project path
-        selItem=selItem[0]
-        for chk in root[1]:
-            if str(chk.tag)==str(selItem):projPath=str(chk.text)
-
-        #prepare python general directory and make one if not available then add it to system path
-        genPyLis=[]
-        for chk in root[0][0]:genPyLis.append(chk.text)
-        for chk in genPyLis: os.makedirs(chk) if os.path.isdir(chk)==False else None
-        for chk in genPyLis: sys.path.append(chk);
-
-        #add general python path to system
-        if os.path.isdir(projPath)==False: os.makedirs(projPath)
-        sys.path.append(projPath)
-
-        #run menuBuilder
-        asiistMenuBuilder.hash()
+            #run menuBuilder
+            asiistMain.hash()
+        except Exception as e:
+            print e
+            cmds.confirmDialog(icn='warning', t='Error',\
+                               message='Unable to create temporary file. Switching to default environment.',\
+                               button=['Ok'])
     return
 
+#UI function script for the startup. This function to be called by layoutDialog
 def uiFunction(*args):
     #startup found
     tree=ET.parse('startup.xml')
@@ -80,6 +77,7 @@ def uiFunction(*args):
     for chk in root[1]:cmds.textScrollList('startupTextScroll',e=True,a=str(chk.tag))
     return
 
+#startup function. This is the entry point of the whole session
 def startup(*args):
     #validate startup.xml
     if os.path.isfile('startup.xml')==False:
@@ -90,7 +88,7 @@ def startup(*args):
     else:
         #call layoutdialog
         try:
-            cmds.layoutDialog(ui=uiFunction)
+            cmds.layoutDialog(ui=uiFunction,t='ASIIST Startup')
         except:
             pass
 
@@ -99,5 +97,5 @@ def startup(*args):
     om.MSceneMessage.addCallback(om.MSceneMessage.kAfterSave,afterSaveCallbackFun)
     return
 
-#initialize startup
+#initialize startup sequence
 utils.executeDeferred(startup)
