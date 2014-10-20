@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://X:/TECH/.idea/TECH.iml" filepath="X:/TECH/.idea/TECH.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/asiist.iml" filepath="$PROJECT_DIR$/.idea/asiist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../mncRegistrarAssetManager/.idea/mncRegistrarAssetManager.iml" filepath="$PROJECT_DIR$/../mncRegistrarAssetManager/.idea/mncRegistrarAssetManager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pyDevPackage/.idea/pyDevPackage.iml" filepath="$PROJECT_DIR$/../pyDevPackage/.idea/pyDevPackage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../registrarFileManager/.idea/registrarFileManager.iml" filepath="$PROJECT_DIR$/../registrarFileManager/.idea/registrarFileManager.iml" />
     </modules>
   </component>
 </project>

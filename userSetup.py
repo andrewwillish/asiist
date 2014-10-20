@@ -4,7 +4,7 @@
 import maya.utils as utils
 import maya.cmds as cmds
 import maya.mel as mel
-import os, sys, imp, asiistMain
+import os, asiistMain
 import maya.OpenMaya as om
 import xml.etree.ElementTree as ET
 

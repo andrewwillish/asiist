@@ -10,6 +10,23 @@ import xml.etree.ElementTree as ET
 winRoot=os.environ['ProgramFiles']
 winRoot=winRoot[:winRoot.find('\\')+1]
 
+#call project environment
+def getEnvi(*args):
+    global projEnvi
+    #get project path of the projEnvi
+    projPath=''
+    root=ET.parse('startup.xml').getroot()
+    for chk in root[1]:
+        if str(chk.tag)==str(projEnvi):projPath=str(chk.text)
+
+    #get information from projInfo.xml following projPath
+    if os.path.isfile(projPath+'/projInfo.xml')==False:raise StandardError, 'error : projInfo file not found'
+
+    root=ET.parse(projPath+'/projInfo.xml').getroot()
+    returnLis=[]
+    for chk in root:returnLis.append((chk.tag,chk.text))
+    return returnLis
+
 #function to declare current project environment
 def declareProjectEnvi(enviSel):
     global projEnvi
@@ -117,4 +134,8 @@ def hash(*args):
             if os.path.isfile(sourcePath+'/asiistMenu.py'):
                 sourceName=sourcePath[sourcePath.rfind('/')+1:]
                 imp.load_source(sourceName,sourcePath+'/asiistMenu.py')
+
+    #setup data information to maya
+    for chk in getEnvi():
+        if chk[0]=='unit': cmds.currentUnit(time=chk[1])
     return
