@@ -4,9 +4,7 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="TECH" />
     <orderEntry type="module" module-name="registrarFileManager" />
-    <orderEntry type="module" module-name="pyDevPackage" />
     <orderEntry type="module" module-name="mncRegistrarAssetManager" />
   </component>
   <component name="PyDocumentationSettings">

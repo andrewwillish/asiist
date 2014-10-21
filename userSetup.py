@@ -51,9 +51,8 @@ def environmentPrep(*args):
             #run menuBuilder
             asiistMain.hash()
         except Exception as e:
-            print e
             cmds.confirmDialog(icn='warning', t='Error',\
-                               message='Unable to create temporary file. Switching to default environment.',\
+                               message='Project credential load failed.\n'+str(e),\
                                button=['Ok'])
     return
 
