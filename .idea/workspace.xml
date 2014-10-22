@@ -31,13 +31,13 @@
     <favorites_list name="asiist" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.5">
+    <splitter split-orientation="vertical" split-proportion="0.49402025">
       <split-first>
         <leaf>
           <file leaf-file-name="ramAssetUI.py" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/../registrarFileManager/ramAssetUI.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="536" column="55" selection-start="24010" selection-end="24010" vertical-scroll-proportion="0.5743381" vertical-offset="8830" max-vertical-offset="14722">
+                <state line="22" column="32" selection-start="568" selection-end="568" vertical-scroll-proportion="0.56082475" vertical-offset="102" max-vertical-offset="14722">
                   <folding>
                     <element signature="e#103#127#0" expanded="true" />
                   </folding>
@@ -52,7 +52,7 @@
           <file leaf-file-name="ramAssetUI.py" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/../registrarFileManager/ramAssetUI.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="405" column="45" selection-start="18645" selection-end="18645" vertical-scroll-proportion="0.47325101" vertical-offset="6655" max-vertical-offset="14722">
+                <state line="398" column="14" selection-start="18401" selection-end="18401" vertical-scroll-proportion="0.22560975" vertical-offset="6655" max-vertical-offset="14722">
                   <folding>
                     <element signature="e#103#127#0" expanded="true" />
                   </folding>
@@ -553,7 +553,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../registrarFileManager/ramAssetUI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="536" column="55" selection-start="24010" selection-end="24010" vertical-scroll-proportion="0.5743381" vertical-offset="8830" max-vertical-offset="14722">
+        <state line="22" column="32" selection-start="568" selection-end="568" vertical-scroll-proportion="0.56082475" vertical-offset="102" max-vertical-offset="14722">
           <folding>
             <element signature="e#103#127#0" expanded="true" />
           </folding>
