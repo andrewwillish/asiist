@@ -1,4 +1,4 @@
-ASIIST v2.0 System Documentation
+ASIIST v2.0 Dependencies Documentation
 ========================================================================================================================
 
 [startup.xml]
@@ -13,6 +13,20 @@ The information contained within startup.xml is as follow:
     -. generalPluginRootDir     = plugin directory that contains general plugin
     -. projectDir               = project root directory where projectInfo.xml is located for further instruction.
 
+startup.xml example structure is as follow
+<root>
+    <generalInformation>
+        <generalRepo>
+            <general>Z:/development/asiist/testFlight/generalPythonRepository</general>
+        </generalRepo>
+    </generalInformation>
+
+    <projectDirectory>
+        <KIKO_KKO>Z:/development/asiist/testFlight/projectData/KIKO</KIKO_KKO>
+    </projectDirectory>
+</root>
+
+generalPythonRootDir has to be exist or the system won't load.
 
 [launcher.bat]
 ------------------------------------------------------------------------------------------------------------------------

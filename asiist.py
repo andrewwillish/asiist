@@ -31,15 +31,13 @@ def getEnvi(*args):
 def declareProjectEnvi(enviSel):
     global projEnvi
     #declare projEnvi
-    if 'projEnvi' not in globals():
-        projEnvi=''
+    if 'projEnvi' not in globals():projEnvi=''
 
     #get old project path
     projPath=''
     root=ET.parse('startup.xml').getroot()
     for chk in root[1]:
-        if str(chk.tag)==str(projEnvi):
-            projPath=str(chk.text)
+        if str(chk.tag)==str(projEnvi):projPath=str(chk.text)
 
     #remove old project path from sys.path
     if projPath!='':sys.path.remove(projPath)
@@ -49,8 +47,7 @@ def declareProjectEnvi(enviSel):
 
     #get new project path
     for chk in root[1]:
-        if str(chk.tag)==str(projEnvi):
-            projPath=str(chk.text)
+        if str(chk.tag)==str(projEnvi):projPath=str(chk.text)
 
     #set new project path to sys.path
     sys.path.append(projPath)
@@ -61,8 +58,7 @@ def switchProc(*args):
     global projEnvi
     #get selection
     selItem=cmds.textScrollList('switchEnviTextScroll',q=True,si=True)
-    if selItem==None:
-        raise StandardError, 'error : no environment selected'
+    if selItem==None:raise StandardError, 'error : no environment selected'
 
     #declare new environement
     declareProjectEnvi(str(selItem[0]))
@@ -70,8 +66,7 @@ def switchProc(*args):
     #rehash menu file
     hash()
 
-    cmds.confirmDialog(icn='information', t='Done',\
-                       m='Envrinoment has been switched.', button=['Ok'])
+    cmds.confirmDialog(icn='information', t='Done',m='Envrinoment has been switched.', button=['Ok'])
     return
 
 #function to start project switching environment
@@ -81,8 +76,7 @@ def switchEnvi(*args):
     root=tree.getroot()
 
     #create window
-    if cmds.window('switchEnvi',exists=True):
-        cmds.deleteUI('switchEnvi',window=True)
+    if cmds.window('switchEnvi',exists=True):cmds.deleteUI('switchEnvi',window=True)
     cmds.window('switchEnvi', t='Switch Environment', s=False)
     cmds.columnLayout(adj=True)
     cmds.textScrollList('switchEnviTextScroll', w=150,dcc=switchProc)
@@ -96,15 +90,13 @@ def hash(*args):
     #delete all previous menu
     #menu indicated by prefix m_
     for chk in cmds.lsUI(menus=True):
-        if chk.startswith('m_'):
-            cmds.deleteUI(chk, menu=True)
+        if chk.startswith('m_'):cmds.deleteUI(chk, menu=True)
 
     #get project path
     root=ET.parse('startup.xml').getroot()
     selItem=projEnvi
     for chk in root[1]:
-        if str(chk.tag)==str(selItem):
-            projPath=str(chk.text)
+        if str(chk.tag)==str(selItem):projPath=str(chk.text)
 
     #add general python path to system
     genPyLis=[]
@@ -126,8 +118,7 @@ def hash(*args):
         pass
     sys.path.append(projPath)
 
-    #generating menu
-    mainWindow = mel.eval('$temp1=$gMainWindow')
+    #generating menu based on collected python path
     for sourcePath in sys.path:
         if os.path.isdir(sourcePath):
             if sourcePath.endswith('/')==True:sourcePath=sourcePath[:sourcePath.rfind('/')]

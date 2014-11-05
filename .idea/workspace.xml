@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/../mncRegistrarAssetManager/mncRamAssetCore.py" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="f37d3919-2d24-496c-b5eb-c216a9ccf555" name="Default" comment="" />
     <ignored path="asiist.iws" />
@@ -15,10 +12,20 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/asiist$registrarManagerUI.coverage" NAME="registrarManagerUI Coverage Results" MODIFIED="1413802007344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../registrarFileManager" />
+    <SUITE FILE_PATH="coverage/asiist$mncRegistrarSetupConsole.coverage" NAME="mncRegistrarSetupConsole Coverage Results" MODIFIED="1415183492726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mncRegistrar" />
+    <SUITE FILE_PATH="coverage/asiist$registrarManagerUI.coverage" NAME="registrarManagerUI Coverage Results" MODIFIED="1413950834192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../registrarFileManager" />
     <SUITE FILE_PATH="coverage/asiist$patch1.coverage" NAME="patch1 Coverage Results" MODIFIED="1413875017348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../registrarFileManager/patch" />
-    <SUITE FILE_PATH="coverage/asiist$mncRegistrarManagerUI.coverage" NAME="mncRegistrarManagerUI Coverage Results" MODIFIED="1413801841876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mncRegistrarAssetManager" />
+    <SUITE FILE_PATH="coverage/asiist$listAssetLog.coverage" NAME="listAssetLog Coverage Results" MODIFIED="1414472019839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mncRegistrar" />
+    <SUITE FILE_PATH="coverage/asiist$mncRegistrarAssetUI.coverage" NAME="mncRegistrarAssetUI Coverage Results" MODIFIED="1415004277968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mncRegistrar" />
+    <SUITE FILE_PATH="coverage/asiist$handlerUser.coverage" NAME="handlerUser Coverage Results" MODIFIED="1414989084406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../eddm" />
     <SUITE FILE_PATH="coverage/asiist$listAllTable.coverage" NAME="listAllTable Coverage Results" MODIFIED="1413451861287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../registrarFileManager" />
+    <SUITE FILE_PATH="coverage/asiist$mncRegistrarSeqManagerUI.coverage" NAME="mncRegistrarSeqManagerUI Coverage Results" MODIFIED="1415185631738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mncRegistrar" />
+    <SUITE FILE_PATH="coverage/asiist$mncRegistrarCore.coverage" NAME="mncRegistrarCore Coverage Results" MODIFIED="1414740088074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mncRegistrar" />
+    <SUITE FILE_PATH="coverage/asiist$mncRegistrarSetupCore.coverage" NAME="mncRegistrarSetupCore Coverage Results" MODIFIED="1415008128585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mncRegistrar" />
+    <SUITE FILE_PATH="coverage/asiist$query.coverage" NAME="query Coverage Results" MODIFIED="1414989887144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../eddm" />
+    <SUITE FILE_PATH="coverage/asiist$mncRegistrarManagerUI.coverage" NAME="mncRegistrarManagerUI Coverage Results" MODIFIED="1413975194475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mncRegistrarAssetManager" />
+    <SUITE FILE_PATH="coverage/asiist$mncRegistrarManagerUI__1_.coverage" NAME="mncRegistrarManagerUI (1) Coverage Results" MODIFIED="1414984183110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mncRegistrar" />
+    <SUITE FILE_PATH="coverage/asiist$mncRamSetupConsole.coverage" NAME="mncRamSetupConsole Coverage Results" MODIFIED="1413972289985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mncRegistrarAssetManager" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -31,31 +38,97 @@
     <favorites_list name="asiist" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.49402025">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
+        <splitter split-orientation="vertical" split-proportion="0.5">
+          <split-first>
+            <leaf>
+              <file leaf-file-name="mncRegistrarSeqManagerUI.py" pinned="false" current="true" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/../mncRegistrar/mncRegistrarSeqManagerUI.py">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state line="52" column="43" selection-start="3192" selection-end="3192" vertical-scroll-proportion="0.6439791" vertical-offset="638" max-vertical-offset="9775">
+                      <folding>
+                        <element signature="e#52#88#0" expanded="true" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="mncRegistrarSetupConsole.py" pinned="false" current="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/../mncRegistrar/mncRegistrarSetupConsole.py">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state line="48" column="26" selection-start="1357" selection-end="1357" vertical-scroll-proportion="0.0" vertical-offset="605" max-vertical-offset="1666">
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="mncRegistrarManagerUI.py" pinned="false" current="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/../mncRegistrar/mncRegistrarManagerUI.py">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state line="9457" column="50" selection-start="555878" selection-end="555878" vertical-scroll-proportion="29.08" vertical-offset="161411" max-vertical-offset="164254">
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-first>
+          <split-second>
+            <leaf>
+              <file leaf-file-name="mncRegistrarSeqManagerUI.py" pinned="false" current="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/../mncRegistrar/mncRegistrarSeqManagerUI.py">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state line="417" column="22" selection-start="20559" selection-end="20559" vertical-scroll-proportion="0.45771143" vertical-offset="6905" max-vertical-offset="9775">
+                      <folding>
+                        <element signature="e#52#88#0" expanded="true" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-second>
+        </splitter>
+      </split-first>
+      <split-second>
         <leaf>
-          <file leaf-file-name="ramAssetUI.py" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/../registrarFileManager/ramAssetUI.py">
+          <file leaf-file-name="mncRegistrarCore.py" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../mncRegistrar/mncRegistrarCore.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="22" column="32" selection-start="568" selection-end="568" vertical-scroll-proportion="0.56082475" vertical-offset="102" max-vertical-offset="14722">
+                <state line="97" column="34" selection-start="3504" selection-end="3504" vertical-scroll-proportion="0.0" vertical-offset="1246" max-vertical-offset="12019">
                   <folding>
-                    <element signature="e#103#127#0" expanded="true" />
+                    <marker date="1415170425877" expanded="true" signature="6421:6449" placeholder="SELECT * FRO..mncRamSeqTable..." />
+                    <marker date="1415170425877" expanded="true" signature="7630:7659" placeholder="SELECT * FRO..mncRamUserTable..." />
+                    <marker date="1415170425877" expanded="true" signature="8415:8445" placeholder="SELECT * FRO..mncRamAssetTable..." />
+                    <marker date="1415170425877" expanded="true" signature="27353:27383" placeholder="SELECT * FRO..mncRamAssetNotes..." />
+                    <marker date="1415170425877" expanded="true" signature="27570:27598" placeholder="SELECT * FRO..mncRamAssetLog..." />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="ramAssetUI.py" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/../registrarFileManager/ramAssetUI.py">
+          <file leaf-file-name="mncRegistrarSetupCore.py" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/../mncRegistrar/mncRegistrarSetupCore.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="398" column="14" selection-start="18401" selection-end="18401" vertical-scroll-proportion="0.22560975" vertical-offset="6655" max-vertical-offset="14722">
+                <state line="39" column="47" selection-start="1431" selection-end="1431" vertical-scroll-proportion="0.66513234" vertical-offset="68" max-vertical-offset="4777">
                   <folding>
-                    <element signature="e#103#127#0" expanded="true" />
+                    <marker date="1415183475126" expanded="true" signature="713:740" placeholder="CREATE TABLE..mncRamSeqTable..." />
+                    <marker date="1415183475126" expanded="true" signature="1961:1989" placeholder="CREATE TABLE..mncRamUserTable..." />
+                    <marker date="1415183475126" expanded="true" signature="3818:3847" placeholder="CREATE TABLE..mncRamAssetTable..." />
+                    <marker date="1415183475126" expanded="true" signature="4843:4872" placeholder="CREATE TABLE..mncRamAssetNotes..." />
+                    <marker date="1415183475126" expanded="true" signature="5695:5722" placeholder="CREATE TABLE..mncRamAssetLog..." />
+                    <marker date="1415183475126" expanded="true" signature="6093:6118" placeholder="CREATE TABLE..mncRamSeqLog..." />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="query.py" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../mncRegistrar/query.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="4" column="0" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -71,7 +144,7 @@
   </component>
   <component name="Git.Settings">
     <option name="SYNC_SETTING" value="SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../registrarFileManager" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../scenePlanner" />
   </component>
   <component name="GitLogSettings">
     <option name="myDateState">
@@ -81,20 +154,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="X:/TECH/asiist/startup.xml" />
-        <option value="$PROJECT_DIR$/../pyDevPackage/launcher.bat" />
-        <option value="$PROJECT_DIR$/../pyDevPackage/rootPath.xml" />
-        <option value="$PROJECT_DIR$/../pyDevPackage/userSetup.py" />
-        <option value="$PROJECT_DIR$/../pyDevPackage/mayaPyCompiler.py" />
-        <option value="$PROJECT_DIR$/startup.xml" />
-        <option value="$PROJECT_DIR$/../registrarFileManager/ramSetupCore.py" />
-        <option value="$PROJECT_DIR$/../registrarFileManager/root.xml" />
-        <option value="$PROJECT_DIR$/../registrarFileManager/registrarManagerUI.py" />
-        <option value="$PROJECT_DIR$/../registrarFileManager/ramAssetImportUI.py" />
-        <option value="$PROJECT_DIR$/../registrarFileManager/ramAssetCore.py" />
-        <option value="$PROJECT_DIR$/../registrarFileManager/patch/patch1.py" />
+        <option value="$PROJECT_DIR$/docsDependencies.txt" />
+        <option value="$PROJECT_DIR$/asiist.py" />
         <option value="$PROJECT_DIR$/userSetup.py" />
-        <option value="$PROJECT_DIR$/../registrarFileManager/ramAssetUI.py" />
+        <option value="$PROJECT_DIR$/testFlight/projectData/ENTONGNEW/projInfo.xml" />
+        <option value="$PROJECT_DIR$/testFlight/projectData/KIKO/projInfo.xml" />
+        <option value="$PROJECT_DIR$/dmm.py" />
+        <option value="$PROJECT_DIR$/dms.py" />
+        <option value="$PROJECT_DIR$/docsModule" />
+        <option value="$PROJECT_DIR$/../mncRegistrar/mncRegistrarAssetUI.py" />
+        <option value="$PROJECT_DIR$/../mncRegistrar/scrap.py" />
+        <option value="$PROJECT_DIR$/../rigTools/spineGenerator.py" />
+        <option value="$PROJECT_DIR$/../mncRegistrar/query.py" />
+        <option value="$PROJECT_DIR$/../mncRegistrar/mncRegistrarCore.py" />
+        <option value="$PROJECT_DIR$/../mncRegistrar/mncRegistrarSetupCore.py" />
+        <option value="$PROJECT_DIR$/../mncRegistrar/mncRegistrarSeqManagerUI.py" />
+        <option value="$PROJECT_DIR$/../scenePlanner/reference.py" />
       </list>
     </option>
   </component>
@@ -130,7 +205,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -145,7 +219,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="registrarFileManager" />
+              <option name="myItemId" value="scenePlanner" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -155,11 +229,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="registrarFileManager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="patch" />
+              <option name="myItemId" value="rigTools" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -169,23 +239,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="asiist" />
+              <option name="myItemId" value="mncRegistrar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="settings.github" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mncRegistrarAssetManager" />
+    <property name="options.lastSelected" value="settings.github" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../scenePlanner" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -194,25 +265,85 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="Z:\development\asiist\testFlight\projectData\KIKO" />
+      <recent name="Z:\development\mncRegistrar" />
+      <recent name="Z:\development\mncRegistrarAssetManager" />
       <recent name="Z:\development\registrarFileManager\patch" />
       <recent name="Z:\development\pyDevPackage" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.patch1">
-    <configuration default="false" name="patch1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.mncRegistrarSeqManagerUI">
+    <configuration default="false" name="mncRegistrarSetupConsole" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../registrarFileManager/patch" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mncRegistrar" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="registrarFileManager" />
+      <module name="mncRegistrarAssetManager" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../registrarFileManager/patch/patch1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mncRegistrar/mncRegistrarSetupConsole.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="mncRegistrarAssetUI" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mncRegistrar" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mncRegistrarAssetManager" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mncRegistrar/mncRegistrarAssetUI.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="mncRegistrarSeqManagerUI" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mncRegistrar" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mncRegistrarAssetManager" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mncRegistrar/mncRegistrarSeqManagerUI.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="mncRegistrarSetupCore" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mncRegistrar" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mncRegistrarAssetManager" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mncRegistrar/mncRegistrarSetupCore.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -302,9 +433,6 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
-      <method />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -326,6 +454,9 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -368,12 +499,18 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Python.patch1" />
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Python.mncRegistrarSetupConsole" />
+      <item index="1" class="java.lang.String" itemvalue="Python.mncRegistrarAssetUI" />
+      <item index="2" class="java.lang.String" itemvalue="Python.mncRegistrarSeqManagerUI" />
+      <item index="3" class="java.lang.String" itemvalue="Python.mncRegistrarSetupCore" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.patch1" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.mncRegistrarSeqManagerUI" />
+        <item index="1" class="java.lang.String" itemvalue="Python.mncRegistrarSetupConsole" />
+        <item index="2" class="java.lang.String" itemvalue="Python.mncRegistrarSetupCore" />
+        <item index="3" class="java.lang.String" itemvalue="Python.mncRegistrarAssetUI" />
       </list>
     </recent_temporary>
   </component>
@@ -413,11 +550,11 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26862925" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1296875" sideWeight="0.73137075" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15989584" sideWeight="0.82336706" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997833" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1674333" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" x="0" y="442" width="1920" height="152" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20239191" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="71" y="995" width="755" height="1076" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17663294" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="71" y="995" width="755" height="1076" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936078" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="129" y="241" width="1728" height="844" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -438,124 +575,146 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/../mncRegistrar/reference.py</url>
+          <line>15652</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../registrarFileManager/ramSetupConsole.py">
+    <entry file="file://$PROJECT_DIR$/../mncRegistrar/mncRegistrarAssetUI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="25" selection-start="300" selection-end="300" vertical-scroll-proportion="0.22148916" vertical-offset="3" max-vertical-offset="1326" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyDevPackage/mayaPyCompiler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="37" selection-start="4019" selection-end="4019" vertical-scroll-proportion="1.6343073" vertical-offset="0" max-vertical-offset="2890" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyDevPackage/launcher.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="40" selection-start="246" selection-end="246" vertical-scroll-proportion="0.19227144" vertical-offset="0" max-vertical-offset="1061" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyDevPackage/userSetup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="30" selection-start="282" selection-end="282" vertical-scroll-proportion="0.20829406" vertical-offset="0" max-vertical-offset="1061" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/startup.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="319" selection-end="319" vertical-scroll-proportion="0.09613572" vertical-offset="0" max-vertical-offset="1061">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../registrarFileManager/root.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="61" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1048">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mncRegistrarAssetManager/mncRegistrarManagerUI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9103" column="0" selection-start="542136" selection-end="542643" vertical-scroll-proportion="-10.88" vertical-offset="154394" max-vertical-offset="163914" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../registrarFileManager/registrarManagerUI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7540" column="28" selection-start="450308" selection-end="450308" vertical-scroll-proportion="2.6875" vertical-offset="125987" max-vertical-offset="136221" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../registrarFileManager/ramAssetImportUI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="19" selection-start="3416" selection-end="3416" vertical-scroll-proportion="1.6096997" vertical-offset="153" max-vertical-offset="3876">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../registrarFileManager/ramAssetCore.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="54" selection-start="2879" selection-end="2879" vertical-scroll-proportion="0.77360636" vertical-offset="782" max-vertical-offset="10676">
+        <state line="130" column="36" selection-start="5315" selection-end="5315" vertical-scroll-proportion="0.5227552" vertical-offset="1785" max-vertical-offset="9843">
           <folding>
-            <element signature="e#70#96#0" expanded="true" />
-            <marker date="1413866467975" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..ramAssetNotesTable..." />
-            <marker date="1413866467975" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..ramAssetLog..." />
-            <marker date="1413866467975" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..ramAssetTable..." />
+            <element signature="e#109#133#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../registrarFileManager/patch/patch1.py">
+    <entry file="file://C:/Python26/Lib/site-packages/PyQt4/uic/uiparser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="16" selection-start="674" selection-end="674" vertical-scroll-proportion="0.36852026" vertical-offset="0" max-vertical-offset="1061">
-          <folding>
-            <marker date="1413874995123" expanded="true" signature="-1:-1" placeholder="ALTER TABLE ramAssetTable..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../registrarFileManager/ramSetupCore.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="13" selection-start="1837" selection-end="1864" vertical-scroll-proportion="0.2393968" vertical-offset="630" max-vertical-offset="2839">
-          <folding>
-            <marker date="1413780977933" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..ramAssetNotesTable..." />
-            <marker date="1413780977933" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..ramAssetTable..." />
-            <marker date="1413780977933" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..ramAssetLog..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mncRegistrarAssetManager/mncRamAssetCore.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="422" column="8" selection-start="17137" selection-end="17141" vertical-scroll-proportion="0.3831867" vertical-offset="6748" max-vertical-offset="9061">
-          <folding>
-            <marker date="1413363874423" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..mncRamUserTable..." />
-            <marker date="1413363874423" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..mncRamAssetTable..." />
-            <marker date="1413363874423" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..mncRamAssetNotes..." />
-            <marker date="1413363874423" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..mncRamAssetLog..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mncRegistrarAssetManager/mncRamAssetUI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="327" column="106" selection-start="15161" selection-end="15179" vertical-scroll-proportion="0.33333334" vertical-offset="5150" max-vertical-offset="9639">
+        <state line="506" column="0" selection-start="18363" selection-end="18363" vertical-scroll-proportion="0.33293557" vertical-offset="8272" max-vertical-offset="13175">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/userSetup.py">
+    <entry file="file://$PROJECT_DIR$/../mncRegistrar/scrap.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="35" selection-start="1646" selection-end="1646" vertical-scroll-proportion="0.6409048" vertical-offset="0" max-vertical-offset="1700">
+        <state line="13110" column="0" selection-start="792087" selection-end="809576" vertical-scroll-proportion="0.3090909" vertical-offset="222615" max-vertical-offset="231540">
+          <folding>
+            <element signature="e#23#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docsModule">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="911" selection-end="911" vertical-scroll-proportion="0.39829606" vertical-offset="0" max-vertical-offset="939">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../registrarFileManager/ramAssetUI.py">
+    <entry file="file://$PROJECT_DIR$/../mncRegistrar/reference.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="32" selection-start="568" selection-end="568" vertical-scroll-proportion="0.56082475" vertical-offset="102" max-vertical-offset="14722">
+        <state line="15168" column="17" selection-start="899927" selection-end="899927" vertical-scroll-proportion="0.0" vertical-offset="257414" max-vertical-offset="280789">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mncRegistrar/colorCodeRule.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="7" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docsDependencies.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="159" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1479">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rigTools/spineGenerator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="19" selection-start="637" selection-end="637" vertical-scroll-proportion="0.499388" vertical-offset="0" max-vertical-offset="817">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mncRegistrar/query.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mncRegistrar/mncRegistrarSeqUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="205" selection-end="448" vertical-scroll-proportion="0.19883041" vertical-offset="0" max-vertical-offset="855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mncRegistrar/mncRegistrarManagerUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9457" column="50" selection-start="555878" selection-end="555878" vertical-scroll-proportion="29.08" vertical-offset="161411" max-vertical-offset="164254">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mncRegistrar/mncRegistrarCore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="34" selection-start="3504" selection-end="3504" vertical-scroll-proportion="0.0" vertical-offset="1246" max-vertical-offset="12019">
           <folding>
-            <element signature="e#103#127#0" expanded="true" />
+            <marker date="1415170425877" expanded="true" signature="6421:6449" placeholder="SELECT * FRO..mncRamSeqTable..." />
+            <marker date="1415170425877" expanded="true" signature="7630:7659" placeholder="SELECT * FRO..mncRamUserTable..." />
+            <marker date="1415170425877" expanded="true" signature="8415:8445" placeholder="SELECT * FRO..mncRamAssetTable..." />
+            <marker date="1415170425877" expanded="true" signature="27353:27383" placeholder="SELECT * FRO..mncRamAssetNotes..." />
+            <marker date="1415170425877" expanded="true" signature="27570:27598" placeholder="SELECT * FRO..mncRamAssetLog..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mncRegistrar/mncRegistrarSetupCore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="47" selection-start="1431" selection-end="1431" vertical-scroll-proportion="0.66513234" vertical-offset="68" max-vertical-offset="4777">
+          <folding>
+            <marker date="1415183475126" expanded="true" signature="713:740" placeholder="CREATE TABLE..mncRamSeqTable..." />
+            <marker date="1415183475126" expanded="true" signature="1961:1989" placeholder="CREATE TABLE..mncRamUserTable..." />
+            <marker date="1415183475126" expanded="true" signature="3818:3847" placeholder="CREATE TABLE..mncRamAssetTable..." />
+            <marker date="1415183475126" expanded="true" signature="4843:4872" placeholder="CREATE TABLE..mncRamAssetNotes..." />
+            <marker date="1415183475126" expanded="true" signature="5695:5722" placeholder="CREATE TABLE..mncRamAssetLog..." />
+            <marker date="1415183475126" expanded="true" signature="6093:6118" placeholder="CREATE TABLE..mncRamSeqLog..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mncRegistrar/mncRegistrarSetupConsole.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="26" selection-start="1357" selection-end="1357" vertical-scroll-proportion="0.0" vertical-offset="605" max-vertical-offset="1666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../scenePlanner/reference.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="566" column="26" selection-start="26934" selection-end="26934" vertical-scroll-proportion="0.8230958" vertical-offset="9287" max-vertical-offset="9775">
+          <folding>
+            <element signature="e#52#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mncRegistrar/mncRegistrarSeqManagerUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="43" selection-start="3192" selection-end="3192" vertical-scroll-proportion="0.6439791" vertical-offset="638" max-vertical-offset="9775">
+          <folding>
+            <element signature="e#52#88#0" expanded="true" />
           </folding>
         </state>
       </provider>

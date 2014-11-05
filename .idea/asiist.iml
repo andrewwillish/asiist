@@ -6,6 +6,10 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="registrarFileManager" />
     <orderEntry type="module" module-name="mncRegistrarAssetManager" />
+    <orderEntry type="module" module-name="pythonClass" />
+    <orderEntry type="module" module-name="SOFTWARE DEVELOPMENT" />
+    <orderEntry type="module" module-name="rigTools" />
+    <orderEntry type="module" module-name="scenePlanner" />
   </component>
   <component name="PyDocumentationSettings">
     <option name="myDocStringFormat" value="Plain" />

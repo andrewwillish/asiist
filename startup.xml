@@ -2,8 +2,8 @@
     <generalInformation>
         <generalRepo>
             <general>Z:/development/asiist/testFlight/generalPythonRepository</general>
-            <!--<registrar>Z:/development/mncRegistrarAssetManager</registrar>-->
-            <registrar2>Z:/development/registrarFileManager</registrar2>
+            <registrar>Z:/development/mncRegistrar</registrar>
+            <!--<registrar2>Z:/development/registrarFileManager</registrar2>-->
         </generalRepo>
     </generalInformation>
 

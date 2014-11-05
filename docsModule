@@ -1,0 +1,22 @@
+ASIIST v2.0 Module Documentation
+========================================================================================================================
+
+[asiist class]
+
+Asiist manage the menu and sub-menu of all the plugin developed within the studio. Asiist will be called every time
+maya launched.
+------------------------------------------------------------------------------------------------------------------------
+asiist.getEnvi()
+Return current project environment data that listed in projInfo.xml on each of the project directory.
+
+asiist.declareProjectEnvi(<newEnvironment>)
+Declare new environment to other listed project. will return current project environment name.
+
+asiist.switchProc()
+Internal function for switching procedure
+
+asiist.switchEnvi()
+Switch environment UI. This is the entry point for switching project environment.
+
+asiist.hash()
+Refresh the menu from the selected environment.

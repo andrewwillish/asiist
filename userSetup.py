@@ -4,7 +4,7 @@
 import maya.utils as utils
 import maya.cmds as cmds
 import maya.mel as mel
-import os, asiistMain
+import os, asiist
 import maya.OpenMaya as om
 import xml.etree.ElementTree as ET
 
@@ -46,10 +46,10 @@ def environmentPrep(*args):
         #declare project credential
         try:
             #write temporary file
-            asiistMain.declareProjectEnvi(selItem[0])
+            asiist.declareProjectEnvi(selItem[0])
 
             #run menuBuilder
-            asiistMain.hash()
+            asiist.hash()
         except Exception as e:
             cmds.confirmDialog(icn='warning', t='Error',\
                                message='Project credential load failed.\n'+str(e),\

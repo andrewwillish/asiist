@@ -8,7 +8,7 @@ set MAYA_SCRIPT_PATH=%mypath:~0,-1%;
 set MAYA_PLUG_IN_PATH=%MAYA_PLUG_IN_PATH%;
 
 ::Set python path
-set PYTHONPATH=%mypath:~0,-1%;
+set PYTHONPATH=%mypath:~0,-1%;Z:\development\pyDevPackage
 
 ::Start maya
 "C:\Program Files\Autodesk\Maya2015\bin\maya.exe"

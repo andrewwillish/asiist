@@ -3,7 +3,7 @@ __author__ = 'Andrewwillish'
 import maya.cmds as cmds
 import os, imp,sys
 import maya.mel as mel
-import asiistMain
+import asiist
 
 #Determining root path
 rootPathVar=os.path.dirname(os.path.realpath(__file__)).replace('\\','/')
@@ -22,5 +22,5 @@ try:
 except:
     pass
 
-cmds.menuItem('rehash',l='Menu Rehash',p='m_asiistMenu',c=asiistMain.hash)
-cmds.menuItem('switchEnvi',l='Switch Environment',p='m_asiistMenu',c=asiistMain.switchEnvi)
+cmds.menuItem('rehash',l='Menu Rehash',p='m_asiistMenu',c=asiist.hash)
+cmds.menuItem('switchEnvi',l='Switch Environment',p='m_asiistMenu',c=asiist.switchEnvi)
