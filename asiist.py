@@ -66,7 +66,7 @@ def switchProc(*args):
     #rehash menu file
     hash()
 
-    cmds.confirmDialog(icn='information', t='Done',m='Envrinoment has been switched.', button=['Ok'])
+    cmds.confirmDialog(icn='information', t='Done',m='Environment has been switched.', button=['Ok'])
     return
 
 #function to start project switching environment
