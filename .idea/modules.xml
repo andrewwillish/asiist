@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/../registrarFileManager/.idea/registrarFileManager.iml" filepath="$PROJECT_DIR$/../registrarFileManager/.idea/registrarFileManager.iml" />
       <module fileurl="file://$PROJECT_DIR$/../rigTools/.idea/rigTools.iml" filepath="$PROJECT_DIR$/../rigTools/.idea/rigTools.iml" />
       <module fileurl="file://$PROJECT_DIR$/../scenePlanner/.idea/scenePlanner.iml" filepath="$PROJECT_DIR$/../scenePlanner/.idea/scenePlanner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../veTools/.idea/veTools.iml" filepath="$PROJECT_DIR$/../veTools/.idea/veTools.iml" />
     </modules>
   </component>
 </project>

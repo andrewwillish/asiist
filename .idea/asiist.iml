@@ -10,6 +10,7 @@
     <orderEntry type="module" module-name="SOFTWARE DEVELOPMENT" />
     <orderEntry type="module" module-name="rigTools" />
     <orderEntry type="module" module-name="scenePlanner" />
+    <orderEntry type="module" module-name="veTools" />
   </component>
   <component name="PyDocumentationSettings">
     <option name="myDocStringFormat" value="Plain" />
