@@ -128,5 +128,5 @@ def hash(*args):
 
     #setup data information to maya
     for chk in getEnvi():
-        if chk[0]=='unit': cmds.currentUnit(time=chk[1])
+        if chk[0]=='unit': cmds.currentUnit(time=str(chk[1]))
     return
