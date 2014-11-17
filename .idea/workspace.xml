@@ -13,7 +13,7 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/asiist$mncRegistrarSetupConsole.coverage" NAME="mncRegistrarSetupConsole Coverage Results" MODIFIED="1415347267114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mncRegistrar" />
-    <SUITE FILE_PATH="coverage/asiist$veScenePlanner.coverage" NAME="veScenePlanner Coverage Results" MODIFIED="1415602230770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../scenePlanner" />
+    <SUITE FILE_PATH="coverage/asiist$veScenePlanner.coverage" NAME="veScenePlanner Coverage Results" MODIFIED="1415766116615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../scenePlanner" />
     <SUITE FILE_PATH="coverage/asiist$registrarManagerUI.coverage" NAME="registrarManagerUI Coverage Results" MODIFIED="1413950834192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../registrarFileManager" />
     <SUITE FILE_PATH="coverage/asiist$patch1.coverage" NAME="patch1 Coverage Results" MODIFIED="1413875017348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../registrarFileManager/patch" />
     <SUITE FILE_PATH="coverage/asiist$listAssetLog.coverage" NAME="listAssetLog Coverage Results" MODIFIED="1414472019839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mncRegistrar" />
@@ -21,11 +21,12 @@
     <SUITE FILE_PATH="coverage/asiist$handlerUser.coverage" NAME="handlerUser Coverage Results" MODIFIED="1414989084406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../eddm" />
     <SUITE FILE_PATH="coverage/asiist$veShotSetup.coverage" NAME="veShotSetup Coverage Results" MODIFIED="1415679811025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../veTools" />
     <SUITE FILE_PATH="coverage/asiist$listAllTable.coverage" NAME="listAllTable Coverage Results" MODIFIED="1413451861287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../registrarFileManager" />
-    <SUITE FILE_PATH="coverage/asiist$mncRegistrarSeqManagerUI.coverage" NAME="mncRegistrarSeqManagerUI Coverage Results" MODIFIED="1415606362211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mncRegistrar" />
+    <SUITE FILE_PATH="coverage/asiist$mncRegistrarSeqManagerUI.coverage" NAME="mncRegistrarSeqManagerUI Coverage Results" MODIFIED="1416192653584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mncRegistrar" />
+    <SUITE FILE_PATH="coverage/asiist$rsmShotBuilder.coverage" NAME="rsmShotBuilder Coverage Results" MODIFIED="1416199066848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../veRegistrarFileManager" />
     <SUITE FILE_PATH="coverage/asiist$mncRegistrarCore.coverage" NAME="mncRegistrarCore Coverage Results" MODIFIED="1415346611547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mncRegistrar" />
     <SUITE FILE_PATH="coverage/asiist$asiistMenu.coverage" NAME="asiistMenu Coverage Results" MODIFIED="1415604036736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../veTools" />
     <SUITE FILE_PATH="coverage/asiist$mncRegistrarSetupCore.coverage" NAME="mncRegistrarSetupCore Coverage Results" MODIFIED="1415008128585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mncRegistrar" />
-    <SUITE FILE_PATH="coverage/asiist$query.coverage" NAME="query Coverage Results" MODIFIED="1414989887144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../eddm" />
+    <SUITE FILE_PATH="coverage/asiist$query.coverage" NAME="query Coverage Results" MODIFIED="1415783238126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mncRegistrar" />
     <SUITE FILE_PATH="coverage/asiist$mncRegistrarManagerUI.coverage" NAME="mncRegistrarManagerUI Coverage Results" MODIFIED="1413975194475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mncRegistrarAssetManager" />
     <SUITE FILE_PATH="coverage/asiist$mncRegistrarManagerUI__1_.coverage" NAME="mncRegistrarManagerUI (1) Coverage Results" MODIFIED="1414984183110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mncRegistrar" />
     <SUITE FILE_PATH="coverage/asiist$mncRamSetupConsole.coverage" NAME="mncRamSetupConsole Coverage Results" MODIFIED="1413972289985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mncRegistrarAssetManager" />
@@ -41,27 +42,35 @@
     <favorites_list name="asiist" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.5316623">
       <split-first>
         <leaf>
-          <file leaf-file-name="veShotSetup.py" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../veTools/veShotSetup.py">
+          <file leaf-file-name="rsmShotBuilder.py" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../veRegistrarFileManager/rsmShotBuilder.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="26" column="55" selection-start="726" selection-end="726" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2329">
+                <state line="49" column="0" selection-start="1994" selection-end="1994" vertical-scroll-proportion="-33.32" vertical-offset="0" max-vertical-offset="2380">
                   <folding>
                     <element signature="e#76#100#0" expanded="true" />
-                    <marker date="1415679982313" expanded="true" signature="163:5012" placeholder="..." />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="mncRegistrarManagerUI.py" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/../mncRegistrar/mncRegistrarManagerUI.py">
+          <file leaf-file-name="rsmShotSetup.py" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../veRegistrarFileManager/rsmShotSetup.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="19" column="22" selection-start="467" selection-end="467" vertical-scroll-proportion="0.3757293" vertical-offset="1" max-vertical-offset="164339">
+                <state line="13" column="0" selection-start="188" selection-end="376" vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="2312">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="rsmSequenceManager.py" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/../veRegistrarFileManager/rsmSequenceManager.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="60" column="42" selection-start="2410" selection-end="2410" vertical-scroll-proportion="0.5671296" vertical-offset="530" max-vertical-offset="1394">
                   <folding>
-                    <element signature="e#137#173#0" expanded="true" />
+                    <element signature="e#30#54#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -71,22 +80,27 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="veShotBuilder.py" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/../veTools/veShotBuilder.py">
+          <file leaf-file-name="ramAssetCore.py" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../veRegistrarFileManager/ramAssetCore.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="74" column="62" selection-start="2796" selection-end="2796" vertical-scroll-proportion="0.42473745" vertical-offset="894" max-vertical-offset="1870">
+                <state line="23" column="29" selection-start="535" selection-end="535" vertical-scroll-proportion="-14.28" vertical-offset="34" max-vertical-offset="10727">
                   <folding>
-                    <element signature="e#76#100#0" expanded="true" />
+                    <element signature="e#70#96#0" expanded="true" />
+                    <marker date="1416214371375" expanded="true" signature="8833:8865" placeholder="SELECT * FRO..ramAssetNotesTable..." />
+                    <marker date="1416214371375" expanded="true" signature="10137:10162" placeholder="SELECT * FRO..ramAssetLog..." />
+                    <marker date="1416214371375" expanded="true" signature="10517:10544" placeholder="SELECT * FRO..ramAssetTable..." />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="MNCA_laytshotbuilder.py" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://D:/DEVELOPMENT/SOFTWARE DEVELOPMENT/MNCA_laytshotbuilder.py">
+          <file leaf-file-name="rsmSequenceCore.py" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/../veRegistrarFileManager/rsmSequenceCore.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="171" column="0" selection-start="7518" selection-end="8112" vertical-scroll-proportion="-15.84" vertical-offset="2494" max-vertical-offset="3604">
-                  <folding />
+                <state line="28" column="21" selection-start="645" selection-end="645" vertical-scroll-proportion="0.5509259" vertical-offset="0" max-vertical-offset="864">
+                  <folding>
+                    <element signature="e#30#56#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -102,7 +116,7 @@
   </component>
   <component name="Git.Settings">
     <option name="SYNC_SETTING" value="SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../registrarFileManager" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../veRegistrarFileManager" />
   </component>
   <component name="GitLogSettings">
     <option name="myDateState">
@@ -112,22 +126,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/../mncRegistrar/mncRegistrarAssetUI.py" />
-        <option value="$PROJECT_DIR$/../mncRegistrar/scrap.py" />
-        <option value="$PROJECT_DIR$/../rigTools/spineGenerator.py" />
-        <option value="$PROJECT_DIR$/../mncRegistrar/query.py" />
-        <option value="$PROJECT_DIR$/../scenePlanner/reference.py" />
-        <option value="$PROJECT_DIR$/../mncRegistrar/root.xml" />
-        <option value="$PROJECT_DIR$/../mncRegistrar/mncRegistrarSetupConsole.py" />
-        <option value="$PROJECT_DIR$/../mncRegistrar/mncRegistrarSetupCore.py" />
-        <option value="$PROJECT_DIR$/../mncRegistrar/mncRegistrarCore.py" />
-        <option value="$PROJECT_DIR$/asiist.py" />
-        <option value="$PROJECT_DIR$/../scenePlanner/veScenePlanner.py" />
         <option value="$PROJECT_DIR$/../registrarFileManager/asiistMenu.py" />
         <option value="$PROJECT_DIR$/../veTools/asiistMenu.py" />
+        <option value="$PROJECT_DIR$/../veTools/veShotBuilder.py" />
+        <option value="$PROJECT_DIR$/../mncRegistrar/root.xml" />
+        <option value="$PROJECT_DIR$/../mncRegistrar/mncRegistrarCore.py" />
+        <option value="$PROJECT_DIR$/../mncRegistrar/query.py" />
         <option value="$PROJECT_DIR$/../mncRegistrar/mncRegistrarSeqManagerUI.py" />
         <option value="$PROJECT_DIR$/../veTools/veShotSetup.py" />
-        <option value="$PROJECT_DIR$/../veTools/veShotBuilder.py" />
+        <option value="$PROJECT_DIR$/../veRegistrarFileManager/asiistMenu.py" />
+        <option value="$PROJECT_DIR$/../veRegistrarFileManager/rsmShotBuilder.py" />
+        <option value="$PROJECT_DIR$/../veRegistrarFileManager/rsmShotSetup.py" />
+        <option value="$PROJECT_DIR$/../veRegistrarFileManager/rsmSequenceBrowser.py" />
+        <option value="$PROJECT_DIR$/../veRegistrarFileManager/ramAssetCore.py" />
+        <option value="$PROJECT_DIR$/../veRegistrarFileManager/rsmSequenceManager.py" />
+        <option value="$PROJECT_DIR$/../veRegistrarFileManager/rsmSequenceCore.py" />
+        <option value="$PROJECT_DIR$/../veRegistrarFileManager/root.xml" />
       </list>
     </option>
   </component>
@@ -163,6 +177,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -177,27 +192,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="veTools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="asiist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scenePlanner" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="asiist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SOFTWARE DEVELOPMENT" />
+              <option name="myItemId" value="veRegistrarFileManager" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -213,7 +208,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -221,7 +215,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="settings.github" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../veTools" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../veRegistrarFileManager" />
     <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -240,26 +234,7 @@
       <recent name="Z:\development\registrarFileManager\patch" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.veShotSetup">
-    <configuration default="false" name="mncRegistrarSetupConsole" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mncRegistrar" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="mncRegistrarAssetManager" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mncRegistrar/mncRegistrarSetupConsole.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.rsmShotBuilder">
     <configuration default="false" name="mncRegistrarSeqManagerUI" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -298,39 +273,39 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="asiistMenu" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="query" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../veTools" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mncRegistrar" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="veTools" />
+      <module name="mncRegistrarAssetManager" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../veTools/asiistMenu.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mncRegistrar/query.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="veShotSetup" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="rsmShotBuilder" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../veTools" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../veRegistrarFileManager" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="veTools" />
+      <module name="registrarFileManager" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../veTools/veShotSetup.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../veRegistrarFileManager/rsmShotBuilder.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -486,20 +461,18 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.mncRegistrarSetupConsole" />
-      <item index="1" class="java.lang.String" itemvalue="Python.mncRegistrarSeqManagerUI" />
-      <item index="2" class="java.lang.String" itemvalue="Python.veScenePlanner" />
-      <item index="3" class="java.lang.String" itemvalue="Python.asiistMenu" />
-      <item index="4" class="java.lang.String" itemvalue="Python.veShotSetup" />
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Python.mncRegistrarSeqManagerUI" />
+      <item index="1" class="java.lang.String" itemvalue="Python.veScenePlanner" />
+      <item index="2" class="java.lang.String" itemvalue="Python.query" />
+      <item index="3" class="java.lang.String" itemvalue="Python.rsmShotBuilder" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.veShotSetup" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.rsmShotBuilder" />
         <item index="1" class="java.lang.String" itemvalue="Python.mncRegistrarSeqManagerUI" />
-        <item index="2" class="java.lang.String" itemvalue="Python.asiistMenu" />
+        <item index="2" class="java.lang.String" itemvalue="Python.query" />
         <item index="3" class="java.lang.String" itemvalue="Python.veScenePlanner" />
-        <item index="4" class="java.lang.String" itemvalue="Python.mncRegistrarSetupConsole" />
       </list>
     </recent_temporary>
   </component>
@@ -536,18 +509,18 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26862925" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15989584" sideWeight="0.82428706" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21041666" sideWeight="0.81876725" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997833" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17663294" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" x="0" y="442" width="1920" height="152" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17571297" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="71" y="995" width="755" height="1076" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18123275" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="71" y="995" width="755" height="1076" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936078" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="129" y="241" width="1728" height="844" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26862925" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -575,130 +548,127 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../registrarFileManager/asiistMenu.py">
+    <entry file="file://$PROJECT_DIR$/../mncRegistrar/mncRegistrarSetupCore.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="14" selection-start="631" selection-end="706" vertical-scroll-proportion="0.42988506" vertical-offset="0" max-vertical-offset="870">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../veTools/asiistMenu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="32" selection-start="674" selection-end="674" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-          <folding>
-            <element signature="e#30#54#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../scenePlanner/veScenePlanner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="52" selection-start="430" selection-end="431" vertical-scroll-proportion="-1.5223881" vertical-offset="867" max-vertical-offset="4267">
-          <folding />
-        </state>
+        <state line="62" column="25" selection-start="2314" selection-end="2314" vertical-scroll-proportion="-0.019721577" vertical-offset="1054" max-vertical-offset="5185" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../mncRegistrar/mncRegistrarSeqManagerUI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="392" column="22" selection-start="22221" selection-end="22221" vertical-scroll-proportion="0.19136523" vertical-offset="6483" max-vertical-offset="15419">
+        <state line="111" column="0" selection-start="6581" selection-end="6581" vertical-scroll-proportion="0.17978849" vertical-offset="1700" max-vertical-offset="16898">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../mncRegistrar/mncRegistrarCore.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="45" selection-start="3350" selection-end="3350" vertical-scroll-proportion="1.4264368" vertical-offset="255" max-vertical-offset="12818">
+        <state line="103" column="27" selection-start="4180" selection-end="4180" vertical-scroll-proportion="0.5706019" vertical-offset="1224" max-vertical-offset="12971">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../veRegistrarFileManager/ramSetupCore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2856">
           <folding>
-            <marker date="1415357042235" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..mncRamSeqNotes..." />
-            <marker date="1415357042235" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..mncRamSeqTable..." />
-            <marker date="1415357042235" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..mncRamUserTable..." />
-            <marker date="1415357042235" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..mncRamAssetTable..." />
-            <marker date="1415357042235" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..mncRamAssetNotes..." />
-            <marker date="1415357042235" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..mncRamAssetLog..." />
+            <marker date="1416195264308" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..ramAssetNotesTable..." />
+            <marker date="1416195264308" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..ramAssetTable..." />
+            <marker date="1416195264308" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..ramAssetLog..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/userSetup.py">
+    <entry file="file://$PROJECT_DIR$/../veRegistrarFileManager/asiistMenu.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="16" selection-start="668" selection-end="668" vertical-scroll-proportion="-0.29310346" vertical-offset="510" max-vertical-offset="1700">
+        <state line="30" column="27" selection-start="1078" selection-end="1078" vertical-scroll-proportion="0.44863337" vertical-offset="0" max-vertical-offset="1061">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/asiist.py">
+    <entry file="file://$PROJECT_DIR$/../veRegistrarFileManager/ramAssetImportUI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="32" selection-start="895" selection-end="895" vertical-scroll-proportion="-1.1103449" vertical-offset="1425" max-vertical-offset="2295">
+        <state line="25" column="60" selection-start="744" selection-end="745" vertical-scroll-proportion="0.33333334" vertical-offset="50" max-vertical-offset="3876">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/DEVELOPMENT/SOFTWARE DEVELOPMENT/MNCA_laytsetupsequence.py">
+    <entry file="file://$PROJECT_DIR$/../veRegistrarFileManager/ramAssetUI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="31" selection-start="580" selection-end="580" vertical-scroll-proportion="0.41656944" vertical-offset="0" max-vertical-offset="7038">
+        <state line="83" column="92" selection-start="3702" selection-end="3726" vertical-scroll-proportion="0.33333334" vertical-offset="968" max-vertical-offset="14586">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../registrarFileManager/ramAssetImportUI.py">
+    <entry file="file://$PROJECT_DIR$/scrap.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="117" selection-end="213" vertical-scroll-proportion="0.099183194" vertical-offset="0" max-vertical-offset="3876">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="864">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../veTools/veShotSetup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="55" selection-start="726" selection-end="726" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2329">
-          <folding>
-            <element signature="e#76#100#0" expanded="true" />
-            <marker date="1415679982313" expanded="true" signature="163:5012" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/startup.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="864">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mncRegistrar/project.xml">
+    <entry file="file://$PROJECT_DIR$/../veRegistrarFileManager/rsmShotSetup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
+        <state line="13" column="0" selection-start="188" selection-end="376" vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="2312">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../registrarFileManager/root.xml">
+    <entry file="file://$PROJECT_DIR$/../veRegistrarFileManager/ramAssetCore.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="857">
-          <folding />
+        <state line="23" column="29" selection-start="535" selection-end="535" vertical-scroll-proportion="-14.28" vertical-offset="34" max-vertical-offset="10727">
+          <folding>
+            <element signature="e#70#96#0" expanded="true" />
+            <marker date="1416214371375" expanded="true" signature="8833:8865" placeholder="SELECT * FRO..ramAssetNotesTable..." />
+            <marker date="1416214371375" expanded="true" signature="10137:10162" placeholder="SELECT * FRO..ramAssetLog..." />
+            <marker date="1416214371375" expanded="true" signature="10517:10544" placeholder="SELECT * FRO..ramAssetTable..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/DEVELOPMENT/SOFTWARE DEVELOPMENT/MNCA_laytshotbuilder.py">
+    <entry file="file://$PROJECT_DIR$/../veRegistrarFileManager/rsmShotBuilder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="171" column="0" selection-start="7518" selection-end="8112" vertical-scroll-proportion="-15.84" vertical-offset="2494" max-vertical-offset="3604">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../veTools/veShotBuilder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="62" selection-start="2796" selection-end="2796" vertical-scroll-proportion="0.42473745" vertical-offset="894" max-vertical-offset="1870">
+        <state line="49" column="0" selection-start="1994" selection-end="1994" vertical-scroll-proportion="-33.32" vertical-offset="0" max-vertical-offset="2380">
           <folding>
             <element signature="e#76#100#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mncRegistrar/mncRegistrarManagerUI.py">
+    <entry file="file://$PROJECT_DIR$/asiist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="22" selection-start="467" selection-end="467" vertical-scroll-proportion="0.3757293" vertical-offset="1" max-vertical-offset="164339">
+        <state line="28" column="0" selection-start="813" selection-end="813" vertical-scroll-proportion="0.42068157" vertical-offset="67" max-vertical-offset="2295">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../veRegistrarFileManager/root.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="147" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="851">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../veRegistrarFileManager/rsmSequenceCore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="21" selection-start="645" selection-end="645" vertical-scroll-proportion="0.5509259" vertical-offset="0" max-vertical-offset="864">
           <folding>
-            <element signature="e#137#173#0" expanded="true" />
+            <element signature="e#30#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../veRegistrarFileManager/rsmSequenceManager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="42" selection-start="2410" selection-end="2410" vertical-scroll-proportion="0.5671296" vertical-offset="530" max-vertical-offset="1394">
+          <folding>
+            <element signature="e#30#54#0" expanded="true" />
           </folding>
         </state>
       </provider>

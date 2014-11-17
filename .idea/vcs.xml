@@ -9,6 +9,7 @@
     <mapping directory="$PROJECT_DIR$/../registrarFileManager" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../registrarFileManager" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../scenePlanner" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../veRegistrarFileManager" vcs="Git" />
   </component>
 </project>
 

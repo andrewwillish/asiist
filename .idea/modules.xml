@@ -6,10 +6,10 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/asiist.iml" filepath="$PROJECT_DIR$/.idea/asiist.iml" />
       <module fileurl="file://$PROJECT_DIR$/../mncRegistrar/.idea/mncRegistrarAssetManager.iml" filepath="$PROJECT_DIR$/../mncRegistrar/.idea/mncRegistrarAssetManager.iml" />
       <module fileurl="file://D:/DEVELOPMENT/pythonClass/.idea/pythonClass.iml" filepath="D:/DEVELOPMENT/pythonClass/.idea/pythonClass.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../registrarFileManager/.idea/registrarFileManager.iml" filepath="$PROJECT_DIR$/../registrarFileManager/.idea/registrarFileManager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../veRegistrarFileManager/.idea/registrarFileManager.iml" filepath="$PROJECT_DIR$/../veRegistrarFileManager/.idea/registrarFileManager.iml" />
       <module fileurl="file://$PROJECT_DIR$/../rigTools/.idea/rigTools.iml" filepath="$PROJECT_DIR$/../rigTools/.idea/rigTools.iml" />
       <module fileurl="file://$PROJECT_DIR$/../scenePlanner/.idea/scenePlanner.iml" filepath="$PROJECT_DIR$/../scenePlanner/.idea/scenePlanner.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../veTools/.idea/veTools.iml" filepath="$PROJECT_DIR$/../veTools/.idea/veTools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../shotgunInterface/.idea/shotgunInterface.iml" filepath="$PROJECT_DIR$/../shotgunInterface/.idea/shotgunInterface.iml" />
     </modules>
   </component>
 </project>
