@@ -2,4 +2,11 @@
     <projName>KIKO</projName>
     <projCode>KKO</projCode>
     <unit>pal</unit>
+	<resWidth>1280</resWidth>
+	<resHeight>720</resHeight>
+	<resAspectRatio>1.777</resAspectRatio>
+	<resPixelAspectRatio>1.000</resPixelAspectRatio>
+	<resolution>72.000</resolution>
+	<playblastCodec>H.264</playblastCodec>
+	<playblastFormat>qt</playblastFormat>
 </root>
